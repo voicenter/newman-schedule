@@ -1,0 +1,27 @@
+{
+  "name": "newman-schedule",
+  "version": "1.0.0",
+  "description": "Newman runner Class with node-schedule triggering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voicenter/newman-schedule.git"
+  },
+  "keywords": [
+    "newman",
+    "schedule"
+  ],
+  "author": "Shlomi Gutman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voicenter/newman-schedule/issues"
+  },
+  "homepage": "https://github.com/voicenter/newman-schedule#readme",
+  "dependencies": {
+    "newman": "^5.2.1",
+    "node-schedule": "^1.3.2"
+  }
+}
